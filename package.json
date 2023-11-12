@@ -1,18 +1,31 @@
 {
+<<<<<<< HEAD
   "name": "final_project_se",
   "version": "1.0.0",
   "description": "Ecommerence Pet Store",
+=======
+  "name": "final_project",
+  "version": "1.0.0",
+  "description": "Ecommernce Pet Store",
+>>>>>>> 24081ed (Initial files)
   "main": "server.js",
   "type": "module",
   "scripts": {
     "start": "node server.js",
+<<<<<<< HEAD
     "server": "nodemon server.js"
+=======
+    "server": "nodemon server.js",
+    "client": "npm start --prefix ./client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+>>>>>>> 24081ed (Initial files)
   },
   "keywords": [],
   "author": "Syed Qaim Raza",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",
+<<<<<<< HEAD
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.2",
@@ -20,5 +33,20 @@
     "morgan": "^1.10.0",
     "nodemon": "^3.0.1",
     "react-icons": "^4.11.0"
+=======
+    "concurrently": "^8.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-formidable": "^1.2.0",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.6.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1",
+    "react-icons": "^4.11.0",
+    "react-router-dom": "^6.16.0",
+    "slugify": "^1.6.6"
+>>>>>>> 24081ed (Initial files)
   }
 }

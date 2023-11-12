@@ -1,0 +1,11 @@
+nodemon' is not recognized as an internal or external command, operable program or batch file.
+Database Error MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+Cannot destructure property 'email' of 'req.body' as it is undefined.
+
+
+
+
+
+
+
+
